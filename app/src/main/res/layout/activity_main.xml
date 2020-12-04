@@ -39,6 +39,11 @@
             android:id="@+id/editText1"
             android:text="여기에 입력"
             />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.google.android.material.floatingactionbutton.FloatingActionButton>
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

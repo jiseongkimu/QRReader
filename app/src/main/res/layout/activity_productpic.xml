@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     tools:context=".MainActicity">
 
     <androidx.appcompat.widget.Toolbar
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:theme="@style/AppTheme"
         android:background="#009688"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -40,9 +40,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
         >
         <GridView
             android:id="@+id/gridView"
@@ -54,11 +55,6 @@
             android:layout_marginLeft="10dp"
             >
         </GridView>
-
     </LinearLayout>
-
-
-
-    출처: https://bitsoul.tistory.com/41 [Happy Programmer~]
 
 </androidx.constraintlayout.widget.ConstraintLayout>
